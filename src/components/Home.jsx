@@ -1,19 +1,19 @@
-import Content from "./Content";
-import Footer from "./Footer";
-import Header from "./Header";
-import Highlights from "./Highlights";
-import Product from "./Products"; // ✅ Fixed case to match file name
+import Content from "./Content"
+import Footer from "./Footer"
+import Header from "./Header"
+import Highlights from "./Highlights"
+import Products1 from "./Products1"
 
-function Home() {
-  return (
+function Home(){
+  return(
     <>
-      <Header />
-      <Content />
-      <Highlights />
-      <Footer />
-      <Product />
+    <Header/>
+    <Content/>
+    <Highlights/>
+    <Footer/>
+    <Products1/>
+    
     </>
-  );
+  )
 }
-
-export default Home;
+export default Home
